@@ -1,0 +1,120 @@
+.border {
+  border: 1px solid black;
+}
+
+@font-face {
+  font-family: "Alatsi";
+  src: url("../../font/Alatsi/Alatsi-Regular.ttf");
+}
+body {
+  font-family: Arial;
+}
+
+.button {
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+}
+.button__black {
+  color: #FFFFFF;
+  background-color: #000000;
+  width: 201px;
+}
+.button__white {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+header li {
+  margin: 10px;
+}
+
+article {
+  margin: 30px;
+}
+
+#bann {
+  background-image: url("../img/tse_banniere.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Alatsi", Arial;
+  color: #FFFFFF;
+}
+#bann h1 {
+  text-shadow: #000000 0 3px 6px;
+}
+#bann p {
+  text-shadow: #000000 0 3px 6px;
+}
+
+.article__div--middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.article__div--row {
+  display: flex;
+  justify-content: space-between;
+}
+.article__div--row div {
+  width: 325px;
+  border-radius: 10px;
+}
+.article__div--row img {
+  width: 325px;
+  border-radius: 10px;
+}
+.article__div--side {
+  display: flex;
+  justify-content: space-around;
+}
+.article__div--side div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.article__div--side img {
+  width: 100%;
+  border-radius: 10px;
+}
+.article__div--side--right {
+  padding: 30px;
+}
+
+.programme {
+  background-image: url("../img/programme.jpg");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  color: #FFFFFF;
+  text-shadow: #000000 0 3px 6px;
+}
+
+.title--size1 {
+  color: #000000;
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

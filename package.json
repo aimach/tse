@@ -1,0 +1,19 @@
+{
+  "name": "tse",
+  "version": "1.0.0",
+  "description": "Copie du site TSE pour entraînement",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./style/sass/main.scss:./style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimach/tse.git"
+  },
+  "author": "MH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimach/tse/issues"
+  },
+  "homepage": "https://github.com/aimach/tse#readme"
+}

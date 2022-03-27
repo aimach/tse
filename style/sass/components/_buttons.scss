@@ -1,3 +1,14 @@
-.btn {
-    @include btn
+.button {
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px ;
+    &__black {
+        color:$scn_color;
+        background-color:$frt_color;
+        width: 201px;
+    }
+    &__white {
+        color:$frt_color;
+        background-color:$scn_color;
+    }
 }
+

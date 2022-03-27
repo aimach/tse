@@ -1,6 +1,78 @@
-.container {
-    margin: $layout-margin;
-    padding: $grid-gutter $grid-gutter 0 $grid-gutter;
-    @include border($colour-accent);
+article {
+    margin: 30px;
 }
 
+#bann {
+    //paramètres
+    background-image: url("../img/tse_banniere.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 660px;
+    //disposition texte
+    @include text_center;
+    //forme texte
+    font-family: "Alatsi", Arial ;
+    color:$scn_color;
+    & h1 {
+        text-shadow: $shadow ;
+    }
+    & p {
+        text-shadow: $shadow;
+    }
+}
+
+.article__div {
+    &--middle {
+        @include text_center;
+    }
+    &--row {
+        display:flex;
+        justify-content: space-between;
+        & div {
+            width: 325px;
+            @include border_radius;
+
+        }
+        & img {
+            width: 325px;
+            @include border_radius;
+        }
+    }
+    &--side {
+        display:flex;
+        justify-content: space-around;
+        & div {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        & img {
+            width: 100%;
+            @include border_radius;
+        }
+        &--right {
+            padding: 30px;
+        }
+    }
+}
+
+.programme {
+    //dimension du bloc
+    background-image: url("../img/programme.jpg");
+    background-size:cover;
+    height: 500px;
+    //mise en forme du texte
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color:$scn_color;
+    text-shadow: $shadow;
+
+}
+
+.title--size1 {
+    color:$frt_color;
+    font-size: 32px;
+}
