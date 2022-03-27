@@ -1,13 +1,5 @@
-.border {
-  border: 1px solid black;
-}
-
-@font-face {
-  font-family: "Alatsi";
-  src: url("../../font/Alatsi/Alatsi-Regular.ttf");
-}
 body {
-  font-family: Arial;
+  font-family: "Alatsi", Arial;
 }
 
 .button {
@@ -43,6 +35,11 @@ header li {
 
 article {
   margin: 30px;
+  padding-top: 50px;
+}
+
+#article__cooking {
+  display: flex;
 }
 
 #bann {
@@ -98,6 +95,23 @@ article {
 }
 .article__div--side--right {
   padding: 30px;
+}
+
+.article__food {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.article__food--background {
+  margin: 10px 0px 5px 10px;
+  border-radius: 10px;
+  border: 0.5px solid #999999;
+  width: 290px;
+  background-image: url("../img/food.jpg");
+  background-size: cover;
+}
+.article__food img {
+  width: 600px;
 }
 
 .programme {

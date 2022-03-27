@@ -1,5 +1,10 @@
 article {
     margin: 30px;
+    padding-top : 50px
+}
+
+#article__cooking {
+    display: flex;
 }
 
 #bann {
@@ -54,6 +59,25 @@ article {
         &--right {
             padding: 30px;
         }
+    }
+}
+
+
+
+.article__food {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    &--background {
+        margin: 10px 0px 5px 10px;
+        @include border_radius;
+        border : 0.5px solid #999999;
+        width: 290px;
+        background-image: url("../img/food.jpg");
+        background-size:cover;
+    }
+    & img {
+        width: 600px;
     }
 }
 
