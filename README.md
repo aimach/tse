@@ -1,3 +1,2 @@
 # tse
-Entrainement au HTML/CSS et SCSS (Sass) en reproduisant le site de TrainSweatEat (https://www.trainsweateat.com/)
-
+Working on HTML/CSS and SCSS (Sass) by replicating TrainSweatEat website (https://www.trainsweateat.com/)
